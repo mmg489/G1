@@ -5,9 +5,13 @@ h1 {
 }
 h2 {
   font-size: 36px;
-  color: lightcyan;
+  color: grey;
   text-align: center;
   text-decoration: underline;
+}
+
+a {
+  color: hotpink;
 }
 
 tr {
@@ -17,5 +21,6 @@ tr {
 }
 
 body {
-  background: #444444;
+  background: #000000;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
