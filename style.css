@@ -1,26 +1,43 @@
 h1 {
   font-size: 60px;
-  color: gold;
+  color: rgb(255, 217, 0);
   text-align: center;
+  text-shadow: 4px 1.5px #5e07cf;
 }
 h2 {
   font-size: 36px;
-  color: grey;
+  color: rgb(255, 217, 0);
   text-align: center;
   text-decoration: underline;
+  text-shadow: 4px 1.5px #5e07cf;
 }
 
 a {
-  color: hotpink;
+  color: rgb(255, 217, 0);
+  text-shadow: 4px 1.5px #5e07cf;
 }
 
 tr {
   font-size: 30px;
-  color: gold;
+  color: rgb(255, 217, 0);
   text-align: center;
+  text-shadow: 4px 1.5px #5e07cf;
+}
+tr:nth-child(even) {
+  background-color: #363535;
+}
+
+table,
+th,
+td {
+  border: 3px solid rgb(255, 217, 0);
+}
+
+th {
+  height: 50px;
 }
 
 body {
-  background: #000000;
+  background: #575555;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
