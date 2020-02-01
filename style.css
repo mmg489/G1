@@ -41,3 +41,8 @@ body {
   background: #575555;
   font-family: Georgia, "Times New Roman", Times, serif;
 }
+
+p {
+  color: rgb(255, 217, 0);
+  text-shadow: 4px 1.5px #5e07cf;
+}
